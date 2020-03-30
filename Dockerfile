@@ -1,4 +1,4 @@
-FROM triumfmlutils/baseml:v0.9.1
+FROM triumfmlutils/baseml:v1.0
 
 RUN apt-get install -y zlib1g-dev libjpeg-dev xvfb ffmpeg xorg-dev libboost-all-dev libsdl2-dev swig
 RUN python3.6 -m pip install PyOpenGL PyOpenGL_accelerate
